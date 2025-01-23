@@ -1,0 +1,28 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+pandas = "*"
+matplotlib = "*"
+nibabel = "*"
+origin = "*"
+nb = "*"
+seaborn = "*"
+nilearn = "*"
+colored = "*"
+nib = "*"
+interpol = "*"
+sns = "*"
+nipype = "*"
+keras = "*"
+backend = "*"
+tensorflow = "*"
+scikit-image = "*"
+batchgenerators = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.8"
