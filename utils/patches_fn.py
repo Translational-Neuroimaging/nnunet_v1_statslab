@@ -114,5 +114,5 @@ modified_original_adc_data = original_adc_data[0:90, 0:90, 0:120]
 modified_original_adc_data[np.isnan(modified_original_adc_data)] = 0
 
 # %% Check equality between reconstructed and modified data
-# Validate that the reconstructed data matches the modified original data
-print(np.array_equal(reconstructed_adc, modified_original_adc_data))
+# # Validate that the reconstructed data matches the modified original data
+# print(np.array_equal(reconstructed_adc, modified_original_adc_data))
