@@ -1,6 +1,15 @@
 # nnUNet_v1_StatsLab  
 
-This repository serves as a dedicated framework for dataset preparation, statistical analysis, and performance evaluation in nnUNet v1 based biomedical image segmentation. It streamlines the process of dataset creation, preprocessing, and performance metric calculation, while also facilitating advanced statistical analysis and visualization.
+This repository serves as a dedicated framework for dataset preparation, statistical analysis, and performance evaluation in nnU-Net v1 based biomedical image segmentation. It streamlines the process of dataset creation, preprocessing, and performance metric calculation, while also facilitating advanced statistical analysis and visualization.
+
+## 📂 Dataset Details  
+
+The dataset used in this repository is stored in **`.mat` format** under the **`data`** folder. It includes:  
+- **Table24h**: Contains both **control** and **therapy** data, systematically organized for analysis.  
+
+This structured dataset is essential for training GMM and can also be used further for evaluating the nnU-Net v1 segmentation pipeline.
+
+The .mat files are used to train the GMM model, whereas NIfTI files are utilized for training nnU-Net.
 
 ## 📌 Key Features  
 
@@ -11,7 +20,7 @@ This repository serves as a dedicated framework for dataset preparation, statist
 
 ## 🔬 Research & Citation  
 
-This repository builds upon the [nnU-Net v1](https://github.com/MIC-DKFZ/nnUNet) framework. If you use nnU-Net in your work, please cite the following reference:
+This repository builds upon the [nnU-Net v1](https://github.com/MIC-DKFZ/nnUNet) framework. If you use nnU-Net in your work, please cite the following reference:  
 
 > **Isensee, F., Jaeger, P. F., Kohl, S. A., Petersen, J., & Maier-Hein, K. H. (2021).**  
 > *nnU-Net: a self-configuring method for deep learning-based biomedical image segmentation.*  
@@ -19,4 +28,4 @@ This repository builds upon the [nnU-Net v1](https://github.com/MIC-DKFZ/nnUNet)
 
 ## 🚀 Get Started  
 
-This repository is designed to enhance the standard nnU-Net pipeline by providing additional tools for dataset preparation, statistical evaluation, and research-focused analysis. Feel free to explore, modify, and contribute!  
+This repository is designed to enhance the standard nnU-Net pipeline by providing additional tools for dataset preparation, statistical evaluation, and research-focused analysis. Feel free to explore, modify, and contribute!
